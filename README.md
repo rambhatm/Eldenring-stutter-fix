@@ -15,7 +15,7 @@ Run the script "which_device.ps1" by right clicking and selecting "run with Powe
   # Solution
   The fix depends on the type of device. I am guessing in most cases it will be a smart TV. First goto Control panel / Device manager in windows. Select "view" from menu bar and make sure "Show Hidden Devices" is checked.
   
-  ### Smart TV or any other discoverable device
+  ### Smart TV or any other device on your network
   You can try removing the device under "Digital Media Device" but great windows will add it back when TV is turned on again. The only complete fix now seems to be to set your network to "public". This will make your PC non-discoverable to other devices. Click on your network in the notification or goto control panel/network and set the network to "public". This is the only way I have found to completely fix this issue.
   
   ### USB device/HUB
