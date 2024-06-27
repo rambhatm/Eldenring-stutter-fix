@@ -13,7 +13,7 @@ To add to the problem the device doesnt need to be connected to your PC. If you 
 Run the script "which_device.ps1" by right clicking and selecting "run with Powershell" and play the game. Any time the big stutter occurs check the script window and it will show the culprit device.
 
   # Solution
-  The fix depends on the type of device. I am guessing in most cases it will be a smart TV. First goto Control panel / Device manager in windows. There goto view and make sure "Show Hidden Devices" is checked.
+  The fix depends on the type of device. I am guessing in most cases it will be a smart TV. First goto Control panel / Device manager in windows. Select "view" from menu bar and make sure "Show Hidden Devices" is checked.
   
   ### Smart TV
   You can try removing the device under "Digital Media Device" but great windows will add it back when TV is turned on again. The only complete fix now seems to be to set your network to "public". This will make your PC non-discoverable to other devices. Click on your network in the notification or goto control panel/network and set the network to "public". This is the only way I have found to completely fix this issue.
@@ -21,3 +21,4 @@ Run the script "which_device.ps1" by right clicking and selecting "run with Powe
   ### USB device/HUB
   Certain faulty USB devices or hubs can disconnect/reconnect randomly. For this you will need to right click the device in device manager and disable or uninstall it.
 
+Overall this feels like 25% windows fault for adding a device silently without the user asking for it and 80% Elden ring devs for processing every device addition in thier main render thread. Sadly neither will fix it.
