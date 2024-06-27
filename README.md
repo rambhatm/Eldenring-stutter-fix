@@ -21,4 +21,4 @@ Run the script "which_device.ps1" by right clicking and selecting "run with Powe
   ### USB device/HUB
   Certain faulty USB devices or hubs can disconnect/reconnect randomly. For this you will need to right click the device in device manager and disable or uninstall it.
 
-Overall this feels like 25% windows fault for adding a device silently without the user asking for it and 80% Elden ring devs for processing every device addition in thier main render thread. Sadly neither will fix it.
+Overall this feels like 25% windows fault for adding a device silently without the user asking for it and 75% Elden ring devs for processing every device addition in thier main render thread. Sadly neither will fix it.
