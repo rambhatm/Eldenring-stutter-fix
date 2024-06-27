@@ -5,7 +5,7 @@ A way to diagnose and fix the double stutter that randomly occurs while playing 
 Elden Ring has these random 1-2 sec stutters that happens in pairs. They are caused by a device being added or removed from your PC. In most cases this will be a smart TV that is on the same network as your PC. This script helps find out the device causing the problem. Solutions are mentioned in the solution section of readme.
 
 # The problem
-Massive 1 second to 2 second stutters in Elden ring. This is not the same as traversal stutter or shader compilation stutters that are much shorter. The problem seems to be that Elden ring seems to process any and all device additions in thier main rendering thread. Whenever a new USB device is added the renderer just freezes completely to process this. No other game does things this way.
+Massive 1 second to 2 second stutters in Elden ring. This is not the same as traversal stutter or shader compilation stutters that are much shorter. The problem seems to be that Elden ring seems to process any and all device additions in the main rendering thread. Whenever a new USB device is added the renderer just freezes completely to process this. No other game does things this way.
 
 To add to the problem the device doesnt need to be connected to your PC. If you own a smart TV and is connected to the same network, any time you turn on the TV or go the main menu of the smart TV to change the app, this causes the smart TV to be initialized as a "Digital Media Device". This is what causes the stutter in most cases. 
 
